@@ -14,7 +14,7 @@ Bem-vindo(a) ao painel administrativo da Vistei. O nosso portal administrativo �
     <li><a href="#users-invite">Convidando usuários</a></li>
     <li><a href="#password-recover">Alteração e recuperação de senha</a></li>
   </ul>
-  <li><a href="">Gestão de constantes</a></li>
+  <li><a href="#constants">Gestão de constantes</a></li>
   <ul>
     <li><a href="">Constante tipo de objetos</a></li>
     <li><a href="">Constante tipo de fotos</a></li>
@@ -87,3 +87,55 @@ Convidar um novo usuário é muito simples. Na página inicial da nossa <a href=
 ### <a name="password-recover"></a>Alteração e recuperação de senha
   
 Existem duas maneiras de alterar a sua senha de acesso ao sistema. Caso esteja logado no sitema e lembre a sua senha, basta acessar o menu 'Alterar senha', inserir a sua senha atual, criar uma nova senha e confirmar as alterações. Caso tenha perdido o acesso à sua conta ou esquecido a sua senha de acesso, na tela de login basta escolher a opção 'Esqueceu a senha?'. Na página de recuperação, será solicitado que você informe o seu e-mail e você receberá uma mensagem com um código de recuperação que permitirá que você altere a sua senha.
+
+<hr/>
+
+## <a name="constants"></a>Gestão de constantes
+
+
+### <a name="constant-object"></a>Constante tipo de objetos
+Nessa constante você deve parametrizar quais os tipos de objetos poderão ser vistoriados pela sua empresa na nossa plataforma. A parametrização dessa constante é essencial, pois para cadastrar tipos de fotos você precisará dessa informação. Alguns exemplos para essa constante são: automóveis, motociletas, imóveis, smartphones, etc.
+
+### <a name="constant-photo"></a>Constante tipo de fotos
+Nessa constante você deve parametrizar as fotos que deverão ser enviadas durante a vistoria. Você pode criar quantos tipos de foto desejar e associá-las posteriormente aos tipos de vistoria. Para parametrizar essa constante, você precisa das seguintes informações:
+
+<table>
+  <thead>
+    <td>Parâmetro</td>
+    <td>Descrição</td>
+    <td>Exemplo</td>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nome</td>
+      <td>Nome da foto.</td>
+      <td>Automóvel - frente</td>
+    </tr>  
+     <tr>
+      <td>Descrição</td>
+      <td>Breve texto que descreve a foto.</td>
+      <td>Frente do automóvel.</td>
+    </tr> 
+     <tr>
+      <td>Slug</td>
+      <td>Composto por duas ou três palavras minúsculas, sem acentuação, sem espaço e sem caracteres especiais, o slug é um código curto que identificará as fotos enviadas durante uma vistoria.</td>
+       <td>aut-frente</td>
+    </tr> 
+     <tr>
+      <td>Texto de ajuda</td>
+      <td>O texto de ajuda será exibido para o seu cliente/vistoriador no momento da captura da foto. Insira uma breve descrição de como a voto deve ser tirada.</td>
+      <td>Tire uma foto da frente do seu automóvel. Certifique-se de que a placa esteja legível.</td>
+    </tr> 
+     <tr>
+      <td>Tipo de objeto</td>
+      <td>Neste campo escolha uma das opções criadas anteriormente na constante <a href="#constant-object">tipos de objetos</a>.</td>
+       <td>-</td>
+    </tr> 
+     <tr>
+      <td>Foto de exemplo</td>
+      <td>A foto de exemplo será enviada para o cliente/vistoriado no momento da captura da foto. Escolha uma imagem nítida e que ilustre exatamente como você deseja que a foto seja tirada. O tamanho recomentado para essa imagem é de 100x120px.</td>
+       <td>-</td>
+    </tr> 
+    
+  </tbody>
+</table>
