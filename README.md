@@ -18,7 +18,7 @@ Bem-vindo(a) ao painel administrativo da Vistei. O nosso portal administrativo √
   <ul>
     <li><a href="#constant-object">Constante tipo de objetos</a></li>
     <li><a href="#constant-photo">Constante tipo de fotos</a></li>
-    <li><a href=#constant-inspection"">Constante tipo de Vistorias</a></li>
+    <li><a href=#constant-inspection>Constante tipo de Vistorias</a></li>
   </ul>
   <li><a href="">Gest√£o de vistorias</a></li>
   <ul>
