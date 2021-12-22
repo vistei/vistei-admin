@@ -16,9 +16,9 @@ Bem-vindo(a) ao painel administrativo da Vistei. O nosso portal administrativo �
   </ul>
   <li><a href="#constants">Gestão de constantes</a></li>
   <ul>
-    <li><a href="">Constante tipo de objetos</a></li>
-    <li><a href="">Constante tipo de fotos</a></li>
-    <li><a href="">Constante tipo de Vistorias</a></li>
+    <li><a href="#constant-object">Constante tipo de objetos</a></li>
+    <li><a href="#constant-photo">Constante tipo de fotos</a></li>
+    <li><a href=#constant-inspection"">Constante tipo de Vistorias</a></li>
   </ul>
   <li><a href="">Gestão de vistorias</a></li>
   <ul>
@@ -92,7 +92,6 @@ Existem duas maneiras de alterar a sua senha de acesso ao sistema. Caso esteja l
 
 ## <a name="constants"></a>Gestão de constantes
 
-
 ### <a name="constant-object"></a>Constante tipo de objetos
 Nessa constante você deve parametrizar quais os tipos de objetos poderão ser vistoriados pela sua empresa na nossa plataforma. A parametrização dessa constante é essencial, pois para cadastrar tipos de fotos você precisará dessa informação. Alguns exemplos para essa constante são: automóveis, motociletas, imóveis, smartphones, etc.
 
@@ -101,7 +100,7 @@ Nessa constante você deve parametrizar as fotos que deverão ser enviadas duran
 
 <table>
   <thead>
-    <td>Parâmetro</td>
+    <td>Campo</td>
     <td>Descrição</td>
     <td>Exemplo</td>
   </thead>
@@ -136,6 +135,44 @@ Nessa constante você deve parametrizar as fotos que deverão ser enviadas duran
       <td>A foto de exemplo será enviada para o cliente/vistoriado no momento da captura da foto. Escolha uma imagem nítida e que ilustre exatamente como você deseja que a foto seja tirada. O tamanho recomentado para essa imagem é de 100x120px.</td>
        <td>-</td>
     </tr> 
-    
+  </tbody>
+</table>
+
+### <a name="constant-inspection"></a>Constante tipo de vistoria
+
+Nessa constante você deve parametrizar os tipos de vistorias que poderão ser solicitados pela sua empresa. Você pode criar quantos tipos de vistoria desejar. Para parametrizar essa constante, você precisa das seguintes informações:
+
+<table>
+  <thead>
+    <td>Campo</td>
+    <td>Descrição</td>
+    <td>Exemplo</td>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nome</td>
+      <td>Nome da vistoria.</td>
+      <td>Vistoria veicular</td>
+    </tr>
+    <tr>
+      <td>Tipo de objeto</td>
+      <td>Tipo de objeto que será vistoriado.</td>
+      <td>Automóvel</td>
+    </tr>
+    <tr>
+      <td>Fotos</td>
+      <td>Selecione as fotos que o cliente/vistoriador deverá enviar nessa vistoria.</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Mensagem de boas-vindas</td>
+      <td>Mensagem que será exibida para o cliente/vistoriador antes da vistoria ser iniciada. Importante: a mensagem de boas-vindas sempre será exibida após uma saudação ao cliente/vistoriador, portanto, evite incluir saudações nesse campo.</td>
+      <td>Está tudo pronto para iniciarmos a sua vistoria. Assim que estiver tudo pronto, clique em 'Iniciar'.</td>
+    </tr>
+    <tr>
+      <td>Mensagem de conclusão</td>
+      <td>Mensagem que será exibida para o cliente/vistoriador ao final da vistoria.</td>
+      <td>Vistoria finalizada com sucesso! Em breve entraremos em contato com você para mais informações.</td>
+    </tr>
   </tbody>
 </table>
