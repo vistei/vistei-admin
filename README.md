@@ -156,8 +156,8 @@ Nessa constante você deve parametrizar os tipos de vistorias que poderão ser s
     </tr>
     <tr>
       <td>Tipo de objeto</td>
-      <td>Tipo de objeto que será vistoriado.</td>
-      <td>Automóvel</td>
+      <td>Neste campo escolha uma das opções criadas anteriormente na constante <a href="#constant-object">tipos de objetos</a>.</td>
+      <td>-</td>
     </tr>
     <tr>
       <td>Fotos</td>
