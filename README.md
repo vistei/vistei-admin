@@ -2,7 +2,7 @@
 
 ## 🖥 Painel Administrativo Vistei
 
-Bem-vindo(a) ao painel administrativo da Vistei. O nosso portal administrativo é a plataforma onde você pode visualizar, gerenciar e parametrizar a sua empresa na Vistei. Nessa documentação você encontrará as instruções para uso da plataforma web, para acessar a documentação da API, <a href="">clique aqui</a>.
+Bem-vindo(a) ao painel administrativo da Vistei. O nosso portal administrativo é a plataforma onde você pode visualizar, gerenciar e parametrizar a sua empresa na Vistei. Nessa documentação você encontrará as instruções para uso da plataforma web, para acessar a documentação da API, <a href="https://github.com/vistei/vistei-api/blob/main/README.md">clique aqui</a>.
 
 ## Índice
 
@@ -199,7 +199,7 @@ Após preencher todos os campos, clique em confirmar. Você será redirecionado 
 
 ### <a name="access-credentials"></a>Credenciais de acesso
 
-As credenciais de acesso para desenvolvedores são a API Key e API Secret. Com elas, é possível realizar uma conexão via API entre o sistema da sua empresa e a plataforma Vistei. Para mais detalhes, consulte a <a href=""> documentação da API</a>.
+As credenciais de acesso para desenvolvedores são a API Key e API Secret. Com elas, é possível realizar uma conexão via API entre o sistema da sua empresa e a plataforma Vistei. Para mais detalhes, consulte a <a href="https://github.com/vistei/vistei-api/blob/main/README.md"> documentação da API</a>.
 
 ### <a name="credentials-reset"></a>Resetando credenciais de acesso
 
