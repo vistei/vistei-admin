@@ -20,16 +20,15 @@ Bem-vindo(a) ao painel administrativo da Vistei. O nosso portal administrativo �
     <li><a href="#constant-photo">Constante tipo de fotos</a></li>
     <li><a href=#constant-inspection>Constante tipo de Vistorias</a></li>
   </ul>
-  <li><a href="">Gestão de vistorias</a></li>
+  <li><a href="#inspections">Gestão de vistorias</a></li>
   <ul>
-    <li><a href="">Solicitando visotias</a></li>
-    <li><a href="">Busca e filtragem</a></li>
-    <li><a href="">Emitindo um laudo de vistoria</a></li>
+    <li><a href="#inspection-request">Solicitando visotias</a></li>
+    <!-- <li><a href="">Emitindo um laudo de vistoria</a></li> -->
   </ul>
-  <li><a href="">Painel do desenvolvedor</a></li>
+  <li><a href="#developer">Painel do desenvolvedor</a></li>
    <ul>
-    <li><a href="">Credenciais de acesso</a></li>
-    <li><a href="">Resetando credenciais de acesso</a></li>
+    <li><a href="#access-credentials">Credenciais de acesso</a></li>
+    <li><a href="#credentials-reset">Resetando credenciais de acesso</a></li>
   </ul>
 </ul>
 
@@ -91,6 +90,8 @@ Existem duas maneiras de alterar a sua senha de acesso ao sistema. Caso esteja l
 <hr/>
 
 ## <a name="constants"></a>Gestão de constantes
+
+Constantes são configurações que você pode criar para parametrizar a plataforma de acordo com as necessidades do seu negócio. 
 
 ### <a name="constant-object"></a>Constante tipo de objetos
 Nessa constante você deve parametrizar quais os tipos de objetos poderão ser vistoriados pela sua empresa na nossa plataforma. A parametrização dessa constante é essencial, pois para cadastrar tipos de fotos você precisará dessa informação. Alguns exemplos para essa constante são: automóveis, motociletas, imóveis, smartphones, etc.
@@ -176,3 +177,31 @@ Nessa constante você deve parametrizar os tipos de vistorias que poderão ser s
     </tr>
   </tbody>
 </table>
+
+## <a name="inspections"></a>Gestão de vistorias
+
+### <a name="inspection-request"></a>Silicitando vistorias
+
+Solicitar uma vistoria no portal administrativo da Vistei é muito simples. Na página inicial, acesse o menu 'Vistoria', clique no botão 'Solicitar vistoria'  e preencha as informações solicitadas:
+
+<ul>
+  <li>Tipo de vistoria (criado na constante tipos de vistoria)</li>
+  <li>Aplicação (ferramenta que será usada para realizar a vistoria)</li>
+  <li>Identificador (informação única do objeto vistoriado. Ex.: placa do veículo)</li>
+  <li>Nome do cliente</li>
+  <li>CPF do cliente</li>
+  <li>Telefone do cliente</li>
+</ul>
+
+Após preencher todos os campos, clique em confirmar. Você será redirecionado para a página de detalhes da vistoria, onde poderá gerar um link para a vistoria e enviá-lo por WhatsApp para o cliente/vistoriador.
+
+## <a name="developer"></a>Painel do desenvolvedor
+
+### <a name="access-credentials"></a>Credenciais de acesso
+
+As credenciais de acesso para desenvolvedores são a API Key e API Secret. Com elas, é possível realizar uma conexão via API entre o sistema da sua empresa e a plataforma Vistei. Para mais detalhes, consulte a <a href=""> documentação da API</a>.
+
+### <a name="credentials-reset"></a>Resetando credenciais de acesso
+
+A qualquer momento você pode resetar as credenciais de acesso do seu sistema. Basta acessar a área do desenvolvedor e clicar no botão 'Resetar credenciais'. <br/><br/>
+⚠️ Importante: ao resetar as credenciais de acesso, as credenciais atuais perderão a validade, por isso, lembre-se de alterar essas informações na sua plataforma.
